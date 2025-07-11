@@ -16,7 +16,7 @@ const formData = reactive({
 
 const registerUser = async () => {
   try {
-    const response = await axios.post('http://localhost:8000/api/register', {
+    const response = await axios.post('https://laravue-api-production.up.railway.app/api/register', {
       name: formData.name,
       email: formData.email,
       password: formData.password,

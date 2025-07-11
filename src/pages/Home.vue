@@ -32,7 +32,7 @@ const uploadImage = async () => {
 
   try {
     const response = await axios.post('/api/image', formData, {
-      baseURL: 'http://localhost:8000',
+      baseURL: 'https://laravue-api-production.up.railway.app',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'multipart/form-data',

@@ -14,7 +14,7 @@ const credentials = reactive({
 
 async function loginUser() {
   try {
-    const response = await axios.post('http://localhost:8000/api/login', {
+    const response = await axios.post('https://laravue-api-production.up.railway.app/api/login', {
       email: credentials.email,
       password: credentials.password,
     }, {
