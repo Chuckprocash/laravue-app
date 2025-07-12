@@ -39,7 +39,7 @@
       }
 
       // Make API request to logout
-      await axios.post('http://localhost:8000/api/logout', {}, {
+      await axios.post('http:laravue8-api-production.up.railwat.app/api/logout', {}, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Accept': 'application/json',
